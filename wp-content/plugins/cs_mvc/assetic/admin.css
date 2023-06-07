@@ -1,0 +1,27 @@
+/*Breadcrumb*/
+ul.breadcrumb {
+    width: 98%;
+    padding: 3px 12px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0,0,0,.1);
+}
+ul.breadcrumb>li {
+    display: inline-block;
+}
+ul.breadcrumb>li:after {
+    content: " / ";
+}
+ul.breadcrumb>li:last-child:after {
+    content: "";
+}
+
+/*Formularios de Edicion*/
+#form1 select[multiple] {
+    width: 185px;
+}
+
+/*Portada*/
+#portada_wrap input[type=text] {
+    width: calc(100% - 70px);
+}

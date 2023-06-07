@@ -1,0 +1,786 @@
+hr {
+    max-width: 100%;
+    border-width: 1px;
+    border-color: #28a745;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#footer div {
+    background-color: #28a745;
+    height: auto;
+}
+
+#footer div h6 {
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.verde {
+    color: #28a745;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+        background-color: #28a745;
+    }
+}
+
+.breadcrumb {
+    margin-bottom: 2rem;
+    background-color: #28a745;
+    border-radius: 0;
+}
+
+
+/*PORTADA*/
+/*ARTICULO PRINCIPAL*/
+#articulo-primario {
+    padding: 0;
+}
+
+.img-art-princ {
+    width: 100%;
+    height: auto;
+    padding-left: 15%;
+}
+
+#descripcion-articulo-principal {
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    background-color: #28a745;
+    opacity: 0.95;
+}
+
+#descripcion-articulo-principal h2 {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+    margin: 15px;
+}
+
+#descripcion-articulo-principal p {
+    text-align: justify;
+    color: #ffffff;
+    margin: 15px;
+}
+
+/*ARTICULO SECUNDARIO*/
+.img-art-secundario {
+    width: 100%;
+    height: auto;
+}
+
+#texto-artic-secundario p, #texto-artic-terciario p {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+#titulo-artic-secundario h2 {
+    text-align: left;
+    color: #28a745;
+    padding-top: 10px;
+}
+
+#articulo-secundario {
+    border: 1px solid #28a745;
+    border-radius: 3px;
+}
+
+/*ARTICULO TERCIARIO*/
+#titulo-artic-terciario {
+    color: #28a745;
+    text-align: left;
+}
+
+#seccion-derecha hr {
+    border-width: 3px;
+}
+
+#seccion-derecha aside hr {
+    border-width: 2px;
+}
+
+#seccion-derecha aside #lista-aside-articulos hr {
+    border-width: 1px;
+}
+
+#boton-mas-aside-articulos {
+    text-align: right;
+}
+
+/*ASIDE ARTICULOS*/
+#titulo-aside-articulos {
+    color: #28a745;
+}
+
+/*AVENTURAS*/
+#aventuras-portada {
+    margin: 0 10px;
+}
+
+#aventuras {
+    padding-left: 0;
+}
+
+.panel-aventuras-derecha {
+    height: 300px;
+    margin-top: 10px;
+    padding: 0 10px 0 0;
+}
+
+#aventuras-titulo {
+    background-color: #28a745;
+    margin-bottom: 15px;
+}
+
+#aventuras-titulo h2 {
+    color: #ffffff;
+    font-size: 45px;
+    padding: 15px 0 15px 50px;
+    float: left;
+}
+
+#aventuras-titulo a {
+    text-align: right;
+    float: right;
+    margin-right: 15px;
+}
+
+.articulos-aventuras, #aventuras-aside {
+    position: relative;
+    border: 2px solid #28a745;
+    display: inline-block;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#aventuras img.d-block {
+    height: 300px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#titulo-aventura h3 {
+    color: #28a745;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.aventuras-detalles span {
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+}
+
+.aventuras-detalles #texto-aventura p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.precio-aventuras {
+    text-align: center;
+    bottom: 0;
+    left: -7px;
+    position: absolute;
+    width: 100%;
+}
+
+.dias-aventuras h3, .dias-aventuras h4 {
+    text-align: right;
+    color: #28a745;
+}
+
+.img-new {
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+/*ASIDE*/
+#aventuras-aside .text-center, #aventuras-aside h2, #aventuras-aside p, #aventuras-aside button {
+    text-align: center;
+}
+
+.boton-descarga-app {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#aventuras-aside h2 {
+    text-decoration: underline;
+    color: #28a745;
+}
+
+#aventuras-aside a {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.enlace-promo {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/*HOSTALES*/
+#hostales-portada {
+    padding: 0 10px;
+}
+
+#hostales-titulo {
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #28a745;
+    border-top: 3px solid #28a745;
+}
+
+#hostales-titulo h2 {
+    color: #28a745;
+    font-size: 45px;
+    padding: 15px 0 15px 50px;
+    float: left;
+    margin-bottom: 0;
+}
+
+#hostales-titulo a {
+    text-align: right;
+    float: right;
+    margin-right: 15px;
+}
+
+.card {
+    margin-right: 15px;
+    padding: 0;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card-title {
+    padding: 10px;
+    margin: 0;
+    color: #28a745;
+}
+
+.card-text {
+    /*background-color: #FEEA3B;*/
+    background-color: #CCDB39;
+    /*background-color: #FEC007;*/
+    /*background-color: #FDF211;*/
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+}
+
+/*HOSTALES*/
+/*FILTROS*/
+#filtro-hostales select {
+    margin-bottom: 10px;
+}
+
+/*HOSTALES*/
+/*ASIDE*/
+.aside-hostales img {
+    padding: 0;
+}
+
+.titulo-hostales-aside {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.cuerpo-hostales-aside {
+    padding: 0 10px 10px 10px;
+    display: inline-block;
+}
+
+.cuerpo-hostales-aside h6 {
+    color: #28a745;
+}
+
+.cuerpo-hostales-aside hr {
+    margin-top: 0;
+}
+
+.aside-hostales {
+    display: inline-block;
+    background-color: #F7F7F8;
+    border-bottom: 1px solid #28a745;
+    border-top: 1px solid #28a745;
+}
+
+.servicios-hostales-aside {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.servicios-hostales-aside img {
+    width: 50px;
+    height: 50px;
+}
+
+/*HOSTALES*/
+/*HOSTAL*/
+.imagen-hostal, .imagen-aventura {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.imagen-hostal img.imagen-habitacion-principal, .imagen-aventura img.imagen-aventura-principal {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+}
+
+#nombre-hostal {
+    color: #28a745;
+    margin-bottom: 0;
+}
+
+.habitaciones-capacidad-hostal {
+    background-color: rgba(40, 167, 69, .7);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.habitaciones-capacidad-hostal h3 {
+    z-index: 2;
+    color: #ffffff;
+    padding: 30px 10px 10px 10px;
+}
+
+.habitaciones-capacidad-hostal h3:first-child {
+    float: left;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.habitaciones-capacidad-hostal h3:last-child {
+    float: right;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.iconos-servicios-hostales {
+    margin-bottom: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+.iconos-servicios-hostales img {
+    width: 75px;
+    height: 75px;
+    margin: 0 15px;
+
+}
+
+.descripcion-hostal {
+    width: 100%;
+}
+
+.descripcion-hostal p {
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #28a745;
+}
+
+.logo-habitacion {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.habitaciones-precio-hostal {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: -webkit-linear-gradient(left, #28a745, #F34236);
+    background: -moz-linear-gradient(left, #28a745, #F34236);
+}
+
+.articulo-habitacion-hostal .iconos-servicios-hostales {
+    bottom: 35px;
+}
+
+.habitaciones-precio-hostal h3 {
+    z-index: 2;
+    color: #ffffff;
+    padding: 30px 10px 10px 10px;
+}
+
+.habitaciones-precio-hostal h3:first-child {
+    float: left;
+}
+
+.habitaciones-precio-hostal h3:last-child {
+    float: right;
+}
+
+.articulo-habitacion-hostal {
+    margin-bottom: 10px;
+}
+
+#form-reserva-header {
+    width: 100%;
+    background-color: #28a745;
+}
+
+#form-reserva-header h2 {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+#form-reserva-habitacion {
+    background-color: #CCDB39;
+    padding: 20px;
+    text-align: center;
+}
+
+/*AVENTURAS*/
+/*ASIDE*/
+.cuerpo-aventuras-aside hr {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.descr-aventuras-aside {
+    padding: 0;
+}
+
+.descr-aventuras-aside p {
+    text-align: justify;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.dias-aventuras h4 {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.precio-aventuras-aside {
+    text-align: center;
+    bottom: 0;
+    left: -7px;
+    position: absolute;
+    width: 100%;
+    padding: 0 0 0 15px;
+}
+
+.precio-aventuras-aside span {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+}
+
+.aside-aventuras {
+    display: inline-block;
+    background-color: #F7F7F8;
+    border-bottom: 1px solid #28a745;
+    border-top: 1px solid #28a745;
+    padding-bottom: 10px;
+}
+
+.aside-aventuras img {
+    padding: 0;
+}
+
+.descr-aventuras-aside {
+    padding: 0 10px;
+}
+
+.titulo-aventuras-aside {
+    padding-top: 10px;
+}
+
+#nombre-aventura {
+    color: #28a745;
+    margin-bottom: 0;
+}
+
+.dias-precio-lugar-aventura {
+    background-color: rgba(40, 167, 69, .8);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.dias-precio-lugar-aventura h3, .dias-precio-lugar-aventura h5 {
+    z-index: 2;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+}
+
+.dias-precio-lugar-aventura h5 {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.dias-precio-lugar-aventura h3:first-child {
+    float: left;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.dias-precio-lugar-aventura h3:nth-child(2) {
+    float: right;
+    color: #CCDB39;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.dias-precio-lugar-aventura hr {
+    margin: 0 10px 10px 10px;
+    border-color: #ffffff;
+    z-index: 1;
+}
+
+.descripcion-aventura {
+    width: 100%;
+}
+
+.descripcion-aventura p {
+    text-align: justify;
+    margin: 10px 0;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #28a745;
+}
+
+.imagen-icon-hostal {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#programa, #reserva, #incluimos {
+    padding: 10px 40px;
+}
+
+#programa hr, .servicios-aventuras hr {
+    margin: 0;
+}
+
+#programa h4, #incluimos h4 {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #28a745;
+}
+
+#programa h4 span {
+    color: #212529;
+}
+
+.lugar-hospedaje img, .lugar-hospedaje h3 {
+    float: left;
+}
+
+#programa ul, #incluimos ul {
+    margin: 10px 0;
+}
+
+#programa ul li {
+    list-style: decimal;
+    font: bold 15px Arial, sans-serif;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.servicios-aventuras ul li {
+    list-style: decimal;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+#programa ul li span {
+    font: normal 15px Arial, sans-serif;
+}
+
+/*ARTICULOS*/
+/*ASIDE*/
+#articulos-mas-leidos h2 {
+    font: bold 30px "Times New Roman";
+    color: #3E4095;
+}
+
+.aside-articulos {
+    display: inline-block;
+    background-color: #F7F7F8;
+    border-bottom: 1px solid #3E4095;
+    border-top: 1px solid #3E4095;
+    width: 100%;
+}
+
+.cuerpo-articulos-aside img {
+    padding: 10px 0;
+    width: 75px;
+    height: 75px;
+}
+
+.cuerpo-articulos-aside h3 {
+    font: normal 14pt "Arial";
+}
+
+/*ARTICULOS*/
+/*ARTICULOS*/
+#articulo hr {
+    margin: 0;
+    border-color: #000000;
+}
+
+#nombre-articulo {
+    font: normal 30pt "Times New Roman";
+    color: #000000;
+    margin: 0;
+}
+
+#articulo-articulo p{
+    color: #000000;
+    font: normal 12pt "Arial";
+    text-align: justify;
+    margin: 10px 0;
+}
+#articulo-articulo img{
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+}
+
+#autor-articulo{
+    font: normal 16pt "Arial";
+    margin-top: 10px;
+}
+.imagenes-articulo{
+    padding: 0;
+}
+#todos-articulos{
+    height: 600px;
+    display: inline-block;
+    overflow: scroll;
+}
+
+
+
+
+
+
+/*CAMBIOS BOOSTRAP*/
+section #mainContent {
+    padding: 0 !important;
+}
+
+section {
+    padding: 0 0 10px 0;
+}
+
+#noticias-portada {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h2, h3, h4 {
+    font-family: "Times New Roman", sans-serif;
+}
+
+.btn-warning, .badge-warning {
+    color: #ffffff;
+    background-color: #CCDB39;
+}
+
+.btn-warning:hover {
+    color: #ffffff;
+    background-color: #889226;
+    cursor: hand;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: hand;
+}
+
+.form-inline .form-group {
+    margin-bottom: 10px;
+}
+
+.form-inline .form-group div {
+    width: 100%;
+    text-align: left;
+}
+
+.form-inline .form-group div input, .form-inline .form-group div select {
+    width: 100%;
+}
+
+.form-inline .form-group div#enviar-form-habitacion {
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+#galeria-hostales, #galeria-aventuras{
+    padding: 0 15px;
+}
+#galeria-articulos{
+    padding: 10px 15px 0 15px;
+}
+
+.nav-tabs .nav-link {
+    background-color: #28a745;
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: #CCDB39;
+    color: #ffffff;
+    border-bottom-color: #CCDB39;
+}
+
+.tab-content > .active {
+    background-color: #CCDB39;
+}
+
+.btn:hover {
+    cursor: hand;
+}
+.custom-control-input:checked~.custom-control-indicator {
+    color: #fff;
+    background-color: #28a745;
+}
+.modal-body p{
+    text-align: justify;
+}

@@ -1,0 +1,110 @@
+<?php include(TEMPLATEPATH . '/language.php');
+require_once CS_MVC_PATH_VMODEL . '/ImagenPortadaViewModel.php';
+
+$model = $model = new ImagenPortadaViewModel();
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>"/>
+    <title><?php wp_title(''); ?><?php if (wp_title('', false)) {
+            echo ' :';
+        } ?><?php bloginfo('name'); ?></title>
+
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/font-awesome.min.css">
+
+    <!-- Plugin CSS -->
+    <link  rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/magnific-popup.css">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/creative.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/my-style.css">
+
+    <?php
+    wp_enqueue_script('jq', get_stylesheet_directory_uri() . '/js/jquery.min.js');
+	wp_enqueue_script('ea', get_stylesheet_directory_uri() . '/js/jquery.easing.min.js');
+	wp_enqueue_script('ma', get_stylesheet_directory_uri() . '/js/jquery.magnific-popup.min.js');
+    wp_enqueue_script('po', get_stylesheet_directory_uri() . '/js/popper.min.js');
+    wp_enqueue_script('bo', get_stylesheet_directory_uri() . '/js/bootstrap.min.js'); 
+    wp_enqueue_script('cr', get_stylesheet_directory_uri() . '/js/scrollreveal.min.js');
+    wp_enqueue_script('cr', get_stylesheet_directory_uri() . '/js/creative.min.js');
+    ?>
+
+    <?php wp_get_archives('type=monthly&format=link'); ?>
+    <?php //comments_popup_script(); // off by default ?>
+
+    <?php
+    if (is_singular()) wp_enqueue_script('comment-reply');
+    wp_head();
+    ?>
+
+</head>
+<body class="padding-top45">
+<!--begin loader -->
+
+<div id="loader">
+    <div class="sk-three-bounce">
+        <div class="sk-child sk-bounce1"></div>
+        <div class="sk-child sk-bounce2"></div>
+        <div class="sk-child sk-bounce3"></div>
+    </div>
+</div>
+<!--end loader -->
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Green Adventure</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">Portada</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#services">Aventuras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#portfolio">Galer&iacute;a</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Cont&aacute;ctenos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<?php if(is_home()): ?>
+<!-- Header -->
+<header class="masthead">
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1 id="homeHeading">Disfruta de las bellezas naturales con nosotros</h1>
+            <hr>
+            <p>En Green Adventure le ayudamos a tener unas vacaciones inolvidables disfrutando de las maravillas del Caribe! Solo cont&aacute;ctenos, no se arrepentir&aacute;!</p>
+            <a class="btn btn-success btn-xl js-scroll-trigger" href="#about">Conosca m&aacute;s</a>
+        </div>
+    </div>
+</header>
+<?php endif ?>
+<!--Section #1-->
+<section class="bg-success" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="section-heading text-white">Tenemos lo qur estabas buscando!</h2>
+                <hr class="light">
+                <p class="text-faded">Green Adventure es lo que necesitas para vivir de una experiencia &uacute;nica y emocionante! Disfruta de estar en contacto directo que las maravillas que nos propone la flora y fauna cubana . No se arrepentir&aacute;!</p>
+                <a class="btn btn-default btn-xl js-scroll-trigger" href="#reserva-ya">Reserva ya!</a>
+            </div>
+        </div>
+    </div>
+</section>

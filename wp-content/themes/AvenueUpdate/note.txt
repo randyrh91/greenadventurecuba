@@ -1,0 +1,4 @@
+Se Modifico unas cuantas cosas como
+1- el fichero de las taxonomias de include y se le agrego las etiquetas y las categorias a las Page.
+2- el /includes/wpdb.php le agrego el el metodo get_objects y se modifico el metodo query para ponerle una clase
+3- jquery.validationEngine se modifico la linea 415 para no hacerle scroll vertical

@@ -1,0 +1,169 @@
+------------------New Homework----------
+Color del Boton mas oscuro 
+Campo Lugar de Rocojida
+Campo Solicitud del cliente
+Apartado de publicidad
+Ajustar imagen del listado del las excursiones en barra lateral
+Marcar los campos obligatorios
+----------------------------------------
+
+
+
+
+----------------------README---------------------------------
+No se hiso ningun cambio en las tus tareas usa la clase CellPortada para saber que articulos van en la portada recuerda que unarticulo esta asociado con una excursion o demas esta clase ya tiene Bien implementado los metedos para dado el Id del articulo saber q es lo que esta asociado.
+
+Si tas das cuentas al final no son tantas tareas algunas las puse pero no las pidieron otras son copiar pegar talves lo q te traiga mas complicacion sea los Filtral y la reservas en este ultimo si quieres mandame los datos, del cliente y yo la guardo bien en el server pero creo para el caso de las habitaciones q no estan hechas.
+Yo ya no pienso modificar mas la BD Asi q es todo tuya pero igual mientras menos modifique mas time tengo. Cuidate y metele y si no me timbras q te has leido las cosas te sigo enviando tareas. Si puedes el domingo cuando termines o el lunes por la madrugada me envias los cambios
+----------------------README---------------------------------
+Bueno espero haberte ayudado bastante con esto
+1-La clases ImagenPortadaRepo, ExcursionModel, ViajeModel, AccionModel, AlojamientoModel tienen comentarios que te van ayudar a entender bien las clases para conectarte con la BD
+2-Trata de no modificar los modelos ni los controladores en caso de q lo hagas documentamelo bien para saber, Todo lo dema es tuyo. sin contar el backend claro. El ViewModel si lo puedes tocar incluso te sugiero que si vas hacer algun metodo estraño tiralo hay.
+3-te puse nuevas tareas del Frotend al final
+
+Lee bien los comentarios q hay esta la info necesaria para entender las clases, si no funciona algo debe ser que le falta un requerie_once, me llamas me pasas un email no se lo que tu quieras.
+Si quieres venir para aka y trabajar aki perfecto t quedas y le metemos como si nu hubiese un mañana, si quieres q valla paya va hacer dificil pero bueno tu dime, estoy a tu desposicion. Timbrame cuando te hallas leido esto.
+--------------------------------------------------------------
+
+
+Green Aventure Cuba
+==================
+Backend
+--------------
+01-Gestion en WP --:50
+OK-02-Buscar en Internet como buscar articulos por Categorias
+OK-03-Buscar en Internet como buscar articulos por Etiquetas
+04-Ver pq no salen categorias --: 60
+05-Ver pq no salen tag --: 45
+OK-06-Crear estructura de categorias para Articlos, Anuncios
+No-07-Crear un arbol de categoria q salgan en la portada
+No-08-Arreglar pq no se ve las categorias y las etiquetas en wp
+09-Desaclopar plugin CS_MVC de WP --: 58
+10-Actualizar WP --: 40
+
+11-Gestion de Excursiones --: 150
+12-Gestionar Modalidad de Excursion --: 120
+13-Gestionar Tipo de Excursion --: 110
+14-Crear tabla de Elementos q incluye la Excursion --: 115
+15-Crear table de Elementos q no incluye --: 115
+OK-16-Crear rel de m-m Exc con Modalidad
+Ok-17-Ajustar la tabla Viaje con Programas
+18-Agregar una Descripcion de Topico a los Viasjes --:125
+19-Ajustar la Vista de Gestion de Viajes con las de Programs --:132
+20-Hacer una Vista Aparte de Gestion del Programa en general --:133
+21-Arreglar la Vista de Gestion de Excursiones --: 140
+22-Porner Una Excursion en Portada(hacerlo desde el mismo WP) --: 141
+23-Explicar a donde se fue los destinos --: 63 Con Dany
+24-Explicar a donde se fue los programas --: 83 Con Dany
+25-Ajustar la reserva de Excursiones --: 138
+
+26-Copiar Negocio de Excursiones --: 128
+27-Adptarlo pal de las casas --: 129
+28-Gestionar Tipo de Casas --: 80
+Ok-29-Agrergar Relacion m-1 Casa con destino
+30-Gestion de Servicios --: 103
+31-Gestionar Haitaciones Vista Aparte --: 125
+32-Gestionar Casas --: 130
+33-Crear un filtro de casas --: 97
+34-Poner Casa en Portada --: 95 Se resulve con el campo es pupular 
+35-Ajustar la reserva de Casas --: 123
+36-Explicar relaciones de Reserva con las habitaciones --: 93 Con Dany
+
+37-Gestionar Slide --: 98
+OK-38-Hacer relacion m-1 con Post Post_id en donde puede ser Un articulo Exc o Casa
+39-Gestionar configuracion de articulos 2 filas 1-col prin y 2 secundarias --: 46
+40-Gestionar que articulo ira en cada una de ellas. --: 105
+
+Frotend
+---------------
+41-Poner un preload --: 50
+42-Poner semilogo fixed  --: 51
+43-Definir Menu  --: 71
+44-Poner Botron de Internacionalizacion en el Menu  --: 72
+45-I18n de la Informacion Estatica  --: 60
+46-Conectar BD-Portada con slide show de la Portada  --: 100
+47-Conectar BD-Excursiones  --: 138
+48-Conectar Articulos destacdos con BD 3-4  --: 103
+49-Conectar Articlo Principal con BD-Portada 1 | 2  --: 128
+50-Conectar Articlos Restantes de Portada con BD-Portada 2 | 4  --: 124
+51-Conectar Articulos Anuncios con la bara lateral de portada se puede quedar estatico  --: 39
+52-Conectar BD-Casas  --: 117
+53-Hacer un slide tiempo wow de casas  --: 90
+54-Diseñar Galaria de Imagenes antes de la barra de info  --: 55
+55-Conectar con galaria de Imagenes Exc, Casas y Articulos  --: 53
+56-Diseñar Barra de Informacion  --: 70
+57-Poner redes sociales, quines somos, informacion relevante, contactenos, direcion, email en barra de info  --: 68
+
+58-Diseñar Vista de listado de Hostales --: 30
+59-Diseñar Filtro de listado de hostales --: 18
+60-Conectar BD-Hostales con vista de listado --: 25
+61-Crear Un paginador d Hostales --: 15
+62-Concectar Filtro de Listado de Hostales --: 23
+63-Implemenantar Filtro --: 22
+64-Conectar Vista de Hostales con la BD-Hostales --: 127
+65-Conectar Filtro de hostales con BD-Hostales --: 128
+66-Poner el hostal mas popular de detalles caundo se vea el listado de hostal --: 122
+67-Diseñar marcos de hostal seleccionado o activo --: 100
+68-Pasar siempre de primero en el listado lateral de hostales el hostal activo --: 103
+69-Poner botones de siguiente y atras para navegar por hostales --: 50
+70-Conectar funcionalidad de navegacion --: 55
+71-Conectar con habitaciones de la Bd para la vista de Hostal --: 126
+72-Conectar con servicios de habitacion --: 122
+73-Gestionar reserva de Habitaciones desde el frotend --: 127
+74-Conectar con galeria de Imagenes de Habitaciones --: 118
+
+75-Diseñar Vista de listado de Excursiones --: 10
+76-Diseñar Filtro de listado de Excursiones --: 5
+77-Conectar BD-Excursiones con vista de listado --: 9
+78-Crear Un paginador d Excursiones--: 6
+79-Concectar Filtro de Listado de Excursiones --: 7
+80-Implemenantar Filtro --: 8
+81-Conectar Vista de Excursiones con la BD-Excursiones --: 150
+82-Conectar Filtro de Excursiones con BD-Excursiones   --: 115
+83-Poner la Excursion mas popular de detalles caundo se vea el listado de Excursiones --: 145
+84-Diseñar marcos de Excursion seleccionado o activo --: 100
+85-Pasar siempre de primero en el listado lateral de Excursiones la Excursion activa --: 103
+86-Poner botones de siguiente y atras para navegar por Excursiones --: 50
+87-Conectar funcionalidad de navegacion --: 55
+88-Conectar con programas de la Bd para la vista de Excursiones --: 140
+89-Conectar con servicios q incluye la Excursiones --: 130
+90-Conectar con lo q no incluye la Excursiones, poner abajo de lo q incluye --: 135
+91-Gestionar reserva de Excursiones desde el frotend --: 150
+92-Conectar con galeria de Imagenes de Excursiones --: 110
+
+93-Diseñar Vista de listado de Articulos --: 38
+94-Diseñar Filtro de listado de Articulos --: 26
+95-Conectar BD-Articulos con vista de listado --: 33
+96-Crear Un paginador d Articulos --: 23
+97-Concectar Filtro de Listado de Articulos --: 31
+98-Implemenantar Filtro --: 32
+99-Conectar Vista de Articulos con la BD-Articulos --: 131
+100-Conectar Filtro de Articulos con BD-Articulos o poner estaticos --: 123
+101-Poner el Articulo mas popular de detalles caundo se vea el listado de Articulos --: 126
+102-Diseñar marcos de Articulo seleccionado o activo --: 100
+103-Pasar siempre de primero en el listado lateral de Articulos el Articulo activo --: 103
+104-Poner botones de siguiente y atras para navegar por Articulos --: 50
+105-Conectar funcionalidad de navegacion --: 55
+106-La galeria de Imagenes se diseño en el propio articulo --: 104
+
+107-Ocultar Slide en vista q no son portada --: 131
+108-Mantener Fijo la barra lateral o el centro con tal de q tdo quede cuadrodo Articulo --: 49
+109-Mantener Fijo la barra lateral o el centro con tal de q tdo quede cuadrodo Excursiones --: 49
+110-Mantener Fijo la barra lateral o el centro con tal de q tdo quede cuadrodo Alojamientos --: 49
+111-Mantener Fijo la barra lateral o el centro con tal de q tdo quede cuadrodo Portada --: 48
+112-Poner TextArea de Mensaje o aclaraciones (descripcion) del Cliente en reserva Alojamiento --: 100
+113-Poner TextArea de Mensaje o aclaraciones (descripcion) del Cliente en reserva Excursion --: 101
+114-Ocular la Breadcrunm en la portada --: 78
+115-Ocular la Breadcrunm en la vista Movil --: 78
+116-Mostrar el contenido del breadcrum --: 80
+
+
+Proyecto
+---------------
+117-Introducir Info Semi Real --: 50
+118-I18n revision --: 148
+119-Información del Email --: 147
+120-Montaje en el servidor --: 149
+121-Test de Email --: 150
+122-Aceptacion y Cobro --: 151
+

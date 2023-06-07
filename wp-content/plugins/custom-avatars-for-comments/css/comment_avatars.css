@@ -1,0 +1,17 @@
+#comment-avatars-select-wrapper {
+	padding:									4px;
+}
+#comment-avatars-select-wrapper input {
+	display:									none;
+}
+#comment-avatars-select-wrapper img.selected {
+	border:										4px solid #abf;
+	margin:										0;
+}
+#comment-avatars-select-wrapper img,
+#comment-avatars-select-wrapper img.nothing {
+	margin:										4px;
+}
+#comment-avatars-select-wrapper.comment-avatars-deselect-link input {
+	display:									inline;
+}

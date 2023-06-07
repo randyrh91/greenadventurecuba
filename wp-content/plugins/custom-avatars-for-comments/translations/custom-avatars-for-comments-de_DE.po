@@ -1,0 +1,219 @@
+# German translations for commentavatars package
+# German messages for commentavatars
+# Copyright (C) 2010 Nicolas Kuttler
+# This file is distributed under the same license as the commentavatars package.
+# Nicolas Kuttler <wp@nicolaskuttler.de>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Avatars For Comments 0.1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/custom-avatars-for-comments\n"
+"POT-Creation-Date: 2010-04-04 01:32+0200\n"
+"PO-Revision-Date: 2010-04-01 01:11+0200\n"
+"Last-Translator: Nicolas Kuttler <wp@nicolaskuttler.de>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/admin.php:82
+msgid "Pick an avatar:"
+msgstr "Wähle einen Avatar aus:"
+
+#: inc/admin.php:106
+msgid "Comment Avatars"
+msgstr "Kommentar-Avatare"
+
+#: inc/admin.php:143
+msgid "Custom Avatars For Comments"
+msgstr "Individuelle Avatare für Kommentare"
+
+#: inc/admin.php:148
+msgid ""
+"With this plugin your visitors can select from a list of custom avatars when "
+"they leave a comment. This plugin does <strong>not</strong> work out of the "
+"box, you <strong>need</strong> to modify your theme and upload avatars "
+"first. Please see the included readme.txt for instructions."
+msgstr ""
+"Mit diesem plugin können Ihre Besucher aus einer Liste von Avataren einen "
+"auswählen, wenn sie einen Kommentar hinterlassen. Dieses plugin funktioniert "
+"<strong>nicht</strong> ohne zusätzliche Arbeiten. Das Theme <strong>muss</"
+"strong> zuerst modifiziert werden. Bitte schauen Sie in die readme.txt Datei."
+
+#: inc/admin.php:154
+msgid ""
+"No <code>wp-content/commentavatars/</code> directory exists. Please create "
+"it and upload some avatars."
+msgstr ""
+"Kein <code>wp-content/commentavatars/</code> Verzeichnis existiert. Bitte "
+"legen Sie es an und laden Sie Avatare hoch."
+
+#: inc/admin.php:158
+msgid ""
+"You can upload additional avatars to <code>wp-content/commentavatars/</code> "
+"any time. Please don't delete existing ones, as that will lead to broken "
+"image links if they were already used."
+msgstr ""
+"Sie können jederzeit zusätzlich avatare nach <code>wp-content/commentavatars/"
+"</code> hochladen. Bitte löschen Sie nicht bereits vorhandene Bilder, da "
+"dies zu Anzeigefehlern führen kann wenn sie schon benutzt wurden."
+
+#: inc/admin.php:168
+msgid "Label for the avatar select list"
+msgstr "Etikett für die Avatar-Auswahlliste"
+
+#: inc/admin.php:177
+msgid "Automatically select first custom avatar?"
+msgstr "Automatisch den ersten Avatar auswählen?"
+
+#: inc/admin.php:181
+msgid "This will effectively disable gravatars."
+msgstr "Dies wird gravatare deaktivieren."
+
+#: inc/admin.php:187
+msgid "Automatically select a random avatar?"
+msgstr "Automatisch einen zufälligen Avatar aus der Liste auswählen?"
+
+#: inc/admin.php:191
+msgid ""
+"This will effectively disable gravatars and won't work with caching plugins. "
+"If you need that feature please do contact me for professional support."
+msgstr ""
+"Dies wird gravatare deaktivieren. Dies wird nicht mit cache-Plugins "
+"funktionieren. Falls Sie dieses Feature benötigen kontaktieren Sie mich "
+"bitte für professionellen support."
+
+#: inc/admin.php:197
+msgid "Select no avatar link text:"
+msgstr "Keinen Avatar auswählen Verweistext:"
+
+#: inc/admin.php:201
+msgid ""
+"Useful if you have automatic avatar selection enabled or if visitors change "
+"their mind."
+msgstr ""
+"Nützlich wenn man automatisches Auswählen eines Avatars aktiviert hat, oder "
+"wenn ein Besucher es sich anders überlegt."
+
+#: inc/admin.php:207
+msgid "Use a default.png if no custom avatar is selected?"
+msgstr ""
+"Soll die Datei default.png benutzt werden, wenn kein individueller Avatar "
+"ausgewählt wurde?"
+
+#: inc/admin.php:211
+msgid ""
+"You'll need to have a default.png file in the avatars directory. This will "
+"disable gravatars."
+msgstr ""
+"Sie müssen eine Datei namens default.php in das avatar-Verzeichnis "
+"hochladen. Damit werden gravatare deaktiviert."
+
+#: inc/admin.php:217
+msgid "Hide default.png in the custom avatar select list?"
+msgstr "Soll default.png in der Avatar-Auswahlliste versteckt werden?"
+
+#: inc/admin.php:226
+msgid "Use the default CSS styles that come with this plugin?"
+msgstr "Sollen die Standard-CSS Stile dieses pugins benutzt werden?"
+
+#: inc/admin.php:235
+msgid "Force custom avatars width and height:"
+msgstr "Breite und Höhe der Avatare erzwingen:"
+
+#: inc/admin.php:239
+msgid ""
+"This field's value is added as width and height attributes to the avatar &lt;"
+"img&gt; tags, e.g. '44px'."
+msgstr ""
+"Dieser Wert wird als width- und height-Attribute den avatar &lt;img&gt;-tags "
+"hinzugefügt, z.B. '44px'."
+
+#: inc/admin.php:245
+msgid "Force Custom border color:"
+msgstr "Rahmenfarbe erzwingen:"
+
+#: inc/admin.php:249
+msgid "(e.g. '#ff0000')."
+msgstr "(z.B. '#ff0000')."
+
+#: inc/admin.php:255
+msgid "Show the link to the plugin page in the footer?"
+msgstr "Soll der Verweis zu der plugin-Seite im Fuß angezeigt werden?"
+
+#: inc/admin.php:265
+msgid "Save Changes"
+msgstr ""
+
+#: inc/nkuttler.php:25
+msgid "Do you like this plugin?"
+msgstr "Gefällt Ihnen diese plugin?"
+
+#: inc/nkuttler.php:33
+#, php-format
+msgid "<a href=\"%s\">Rate</a> it"
+msgstr "<a href=\"%s\">Bewerten Sie es</a>"
+
+#: inc/nkuttler.php:36
+#, php-format
+msgid "<a href=\"%s\">Visit</a> it's homepage"
+msgstr "<a href=\"%s\">Besuchen Sie seine Webseite</a>"
+
+#: inc/nkuttler.php:39
+#, php-format
+msgid "<a href=\"%s\">Subscribe</a> the feed"
+msgstr "<a href=\"%s\">Abonnieren Sie den feed</a>"
+
+#: inc/nkuttler.php:42
+#, php-format
+msgid "<a href=\"%s\">Donate</a>!"
+msgstr "<a href=\"%s\">Spenden Sie</a>!"
+
+#: inc/nkuttler.php:45
+msgid "About the author"
+msgstr "Über den Autor"
+
+#: inc/nkuttler.php:48
+#, php-format
+msgid "My <a href=\"%s\">blog</a>"
+msgstr "Mein <a href=\"%s\">Blog</a>"
+
+#: inc/nkuttler.php:51
+#, php-format
+msgid "Subscribe via <a href=\"%s\">RSS</a> or <a href=\"%s\">email</a>"
+msgstr "Abonnieren via <a href=\"%s\">RSS</a> or <a href=\"%s\">e-Mail</a>"
+
+#: inc/nkuttler.php:55
+msgid "My other plugins"
+msgstr "Meine anderen plugins"
+
+#: inc/nkuttler.php:56
+msgid "<a href=\"http://www.nkuttler.de\">Translated by Nicolas</a>"
+msgstr "<a href=\"http://www.nicolaskuttler.de\">Übersetzt von Nicolas</a>"
+
+#~ msgid ""
+#~ "Automatically select first custom avatar in the list by default? This "
+#~ "will effectively disable gravatars."
+#~ msgstr ""
+#~ "Automatisch den ersten Avatar aus der Liste auswählen? Dies wird "
+#~ "gravatare deaktivieren."
+
+#~ msgid ""
+#~ "Use this field to force a different color for the border of the selected "
+#~ "avatar (e.g. '#ff0000')."
+#~ msgstr ""
+#~ "Benutzen Sie dieses Feld, um eine andere Farbe für den Rahmen des "
+#~ "ausgewählten Avatars zu erzwingen (z.B. '#ff0000')."
+
+#~ msgid ""
+#~ "With this plugin your visitors can select from a list of custom avatars "
+#~ "when they leave a comment."
+#~ msgstr ""
+#~ "Mit diesem plugin können Ihre Besucher aus einer List von Avataren einen "
+#~ "auswählen, wenn sie einen Kommentar hinterlassen."
+
+#~ msgid "Add the possibility to select a custom avatars for every comment"
+#~ msgstr ""
+#~ "Ermöglicht es, zu jedem einzelenen Kommentar einen individuelle Avatar "
+#~ "auszuwählen."
